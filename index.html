@@ -1,13 +1,25 @@
 <html>
 		<head>
-	
+
 	<meta http-equiv='content-type' content='text/html; charset=UTF-8'>
 	<script type='text/javascript' src='lib/crafty.js'></script>	
-	<script type='text/javascript' src='src/game.js'></script>'
+	<script type='text/javascript' src='src/game.js'></script>
+
+	<style type="text/css">
+	@font-face {
+	    font-family: "pisior";
+	    src: url(lib/LUCON.TTF) format("truetype");
+	}
+	
+	body, footer { 
+	    font-family: "pisior", Verdana, Tahoma;
+	}
+	</style>
+
 	
 	<title>PiSior</title>
 		</head>
-		<body onload='ladowanieAssetow();' style='background-color: black; color: green'> 
+		<body onload='ladowanieAssetow();' style="background-color: black; color: green"> 
 
 		<div id='zapiszWynikPopup' style='display: none; position: fixed; z-index:99; width: 100%; height: 100%; text-align: center; color: green;'>
 			<div id='trescZapiszWynikPopup'style='z-index:999; background-color: black; opacity: 1; width: 600px; height: 300px; border: 1px dashed green; border-collapse: collapse; margin:auto; margin-top: 24px'>
@@ -23,9 +35,9 @@
 		<div id='tloWynikiPopup' style='display: none; background-color: black; opacity: 0.7; position: fixed; z-index: 90; width: 100%; height: 100%; margin-top: 0;text-align: center; color: green;'>
 			</div>
 
-		<table id = 'gra' style='border-width: 1px; margin: auto; margin-top: 25vh; font-family: Lucida Console; color: green'>
+		<table id = 'gra' style='border-width: 1px; margin: auto; margin-top: 25vh; color: green'>
 			<tr><td style='text-align: center;'>
-				<p style='font-family: Lucida Console; color: #006699; font-size: 20px;'><b>P<font color='red';>i</font>S</b><font color='green' ;>ior</font></p>
+				<p style='color: #006699; font-size: 20px;'><b>P<font color='red';>i</font>S</b><font color='green' ;>ior</font></p>
 			</td></tr>
 	
 			<tr><td>
@@ -38,7 +50,7 @@
 			</td></tr>
 	
 			<tr><td>
-				<div id='wyniki' style='font-family: Lucida Console; position: relative;'>
+				<div id='wyniki' style='position: relative;'>
 					<div id='zycie' style='Font-size: 25px; color: green;'>ŻYCIE : 5</div>
 					<div id='strzaly' style='color: green;'>Wystrzeliłeś 0 pocisków</div>
 					<div id='wrogowie' style='color: green;'>Obraziłeś Prezesa 0 razy</div>
@@ -53,7 +65,7 @@
 		 </table>
 
 		 <br><br><br><br>
-		 <footer id='stopa' style='font-family: Lucida Console; color: green; text-align: center;'>
+		 <footer id='stopa' style='color: green; text-align: center;'>
 			 &copy; 
 			 <script type="text/javascript">document.write(new Date().getFullYear());</script> 
 			 gorszy sort
