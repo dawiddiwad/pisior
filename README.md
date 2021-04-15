@@ -1,3 +1,3 @@
 # PiSior
-[pisior](https://pisior.space), game of the year ;)
+[pisior](https://www.pisior.space), game of the year ;)
 
