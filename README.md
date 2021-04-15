@@ -1,3 +1,3 @@
 # PiSior
-[pisior](https://pisior.herokuapp.com), game of the year ;)
+[pisior](https://pisior.space), game of the year ;)
 
